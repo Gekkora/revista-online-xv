@@ -1,0 +1,41 @@
+.papi {
+   /*  width: 960px; */
+    margin: 0 10% 0 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+.menu {
+    /* width: 960px; */
+    border-bottom: 1px solid gray;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+   display: inline-block;
+}
+
+.nav {
+    /* width: 960px; */
+    text-align: right;
+}
+.nav ul {
+    margin: 5px;
+}
+.nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.input-menu {
+    border-radius: 30px;
+}
